@@ -44,8 +44,9 @@ ideas = {
                removal_cost = -1
 
                modifier = {
-               monthly_population = -0.1
-               stability_factor = -0.1
+               production_speed_buildings_factor = -0.2
+               monthly_population = -0.2
+               stability_factor = -0.2
              }
         }
                RYD_amazon_question = {
@@ -60,8 +61,7 @@ ideas = {
 
                modifier = {
                production_speed_buildings_factor = 0.1
-               stability_factor = 0.01
-               monthly_population = 0.01
+               monthly_population = -0.1
              }
         }
     }
