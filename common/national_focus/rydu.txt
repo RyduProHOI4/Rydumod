@@ -1,0 +1,44 @@
+focus_tree = {
+        id = rydu_focus
+
+        country = {
+               factor = 0
+
+               modifier = {
+                       add = 10
+                       original_tag = RYD
+               }
+           }
+           default = yes
+           focus = {
+                   id = RYD_economic_problems
+                   icon = GFX_
+                   x = -1
+                   y = 0
+                   
+                   cost = 1
+
+                   completion_reward = {
+                   country_event = Rydu.1
+                   }
+           }
+           
+           focus = {
+                   id = RYD_Amazon_problem
+                   icon = GFX_
+                   x = -2
+                   y = 1
+                   prerequisite = { 
+                   focus = RYD_economic_problems
+                   }
+
+                   cost = 1
+
+                   completion_reward = {
+                       swap_ideas = {
+                               remove_idea = RYD_amazon_problem
+                               add_idea = RYD_amazon_question
+                       }
+                   }
+           }
+}

@@ -1,0 +1,29 @@
+add_namespace = Rydu
+
+country_event = {
+    id = Rydu.1
+    title = Rydu.1.t
+    desc = Rydu.1.d
+    picture = GFX_
+
+    is_triggered_only = yes
+
+    option = {
+        name = Rydu.1.a
+
+        ai_chance = {
+            base = 50
+        }
+
+        add_political_power = 100
+    }
+    option = {
+        name = Rydu.1.b
+
+        ai_chance = {
+            base = 50
+        }
+
+        add_political_power = 50
+   }
+}
