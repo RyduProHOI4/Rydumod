@@ -64,5 +64,22 @@ ideas = {
                monthly_population = -0.1
              }
         }
+               RYD_good_economy = {
+
+                allowed = {
+                  always = no
+               }
+               allowed_civil_war = {
+                  always = yes
+               }
+               removal_cost = -1
+
+               modifier = {
+               production_speed_buildings_factor = 10
+               monthly_population = 10
+               research_speed_factor = 10
+               stability_weekly = 10
+             }
+         }
     }
 }
